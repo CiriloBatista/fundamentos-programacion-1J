@@ -5,6 +5,75 @@
         <title>Elementos basicos de HTML</title>
     </head>
     <body>
+        <h1>Fundamentos de Programación</h1>
+        <p>Muestras sobre los encabezados dentro de HTML</p>
+        <p>Esta pagina tiene derechos de autor, queda prohibido el uso inhapropiado de este.</p>
+
+        <h2>Tipos de encabzados dentro de HTML</h2>
+        <p>Existen seis diferentes niveles de encabezados y se utilizan con el elemento h, el nivel 1 es el más alto y el 6 es el más bajo</p>
+
+        <h2>Listas</h2>
+        <p>Listas Desordenadas</p>
+
+        <ul>
+            <li>Windows</li>
+            <li>Linux</li>
+            <li>OSX</li>
+        </ul>
+
+        <p>Listas Ordenadas</p>
+
+        <ol>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>Java</li>
+        </ol>
+
+        <h2>Tablas</h2>
+
+        <table border="2" style="border: 2px solid blue;">
+            <tr>
+                <th>No.</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Grupo</th>
+                <th>Correo</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Cirilo</td>
+                <td>Batista</td>
+                <td>1J</td>
+                <td>cbatista2@ucol.mx</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Arturo</td>
+                <td>Cano</td>
+                <td>1J</td>
+                <td>acano3@ucol.mx</td>
+            </tr>
+        </table>
+
+        <h2>Formularios</h2>
         
+        <form>
+            <div>
+                <label for="nombre">Nombre: </label> 
+                <input type="text" id="nombre" placeholder="Type in me!"/>
+                <input type="range">
+            </div>
+            <div>
+                <label for="correo">Pon tu correo:</label>
+                <input type="email" id="correo">
+            </div>
+            <div>
+                <label for="coment">Comenta</label><br>
+                <textarea id="coment"></textarea>
+            </div>
+            <div>
+                <button id="enviar">Enviar</button>
+            </div>
+        </form>
     </body>
 </html>
