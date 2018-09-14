@@ -1,0 +1,20 @@
+p, li, h1{ /*Selector de elemento*/
+    color:blue;
+    width: 500px;
+    border: 2px solid black;
+}
+#niveles { /* Selector de identidad */
+    background-color: yellow;
+    font-family: 'Gamja Flower', cursive;
+    padding: 10px 30px;
+    border: 2px dashed green;
+    margin: 0 auto;
+}
+.diferente{ /* Selector de clase */
+    color: red;
+    border: 2px solid blue;
+}
+#niveles:hover{
+    color: purple;
+    background-color: green;
+}
