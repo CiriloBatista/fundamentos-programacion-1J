@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+form{
+    background-color: antiquewhite;
+    width: 50%;
+    padding: 2% 4% 2%;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+#cajas, #botones{
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 1%;
+    width: 60%;
+    margin: 0 auto;
+}
+#botones{
+    width: 30%;
+}
