@@ -8,27 +8,26 @@
         <link rel="stylesheet" type="text/css" media="screen" href="calculadora1.css">
     </head>
     <body>
+        <h1 align="center">Calculadora</h1>
         <form>
             <div id="cajas" align="center">
                 <div>
-                    <label id="lblnum1" for="numero1">Numero 1:</label>
-                    <input type="number" id="numero1">
+                    <label id="lblnum1" for="numero1"></label>
+                    <input type="number" id="numero1" placeholder="Numero 1">
+                    <label id="lblnum2" for="numero2"></label>
+                    <input type="number" id="numero2" placeholder="Numero 2">
                 </div>
                 <div>
-                    <label id="lblnum2" for="numero2">Numero 2:</label>
-                    <input type="number" id="numero2">
-                </div>
-                <div>
-                    <label for="resultado" id="lblResultado">Resultado: </label>
+                    <label for="resultado" id="lblResultado"><b>=</b></label>
                     <input type="number" id="resultado" readonly>
                 </div>
             </div>
             <div id="botones" align="center">
-                <button id="sumar" type="button">+</button>
-                <button id="restar" type="button">-</button>
+                <button id="sumar" type="button"><b>+</b></button>
+                <button id="restar" type="button"><b>-</b></button>
                 <button id="multiplicar" type="button">x</button>
-                <button id="dividir" type="button">/</button>
-                <button id="residuo" type="button">%</button>
+                <button id="dividir" type="button"><b>/</b></button>
+                <button id="residuo" type="button"><b>%</b></button>
             </div>
         </form>
     </body>
