@@ -1,0 +1,59 @@
+nav{
+    margin-top: 20px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #3E4238;
+    width: 345px;
+    height: 198px;
+    top: 45px;
+    padding: 2.5% 5% 2.5%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+img{
+    position: absolute;
+    left: 18.45%;
+}
+div#basico, div#grados, div#area, div#otra, div#velocidad, div#incremento{
+    display: inline-block;
+    width: 70px;
+    position: relative;
+    margin-left: -5px;
+    padding: 20px 50px 20px; 
+    background-color: turquoise;
+}
+div#basico{
+    border-radius: 5px 0px 0px 0px;
+}
+div#grados{
+    border-radius: 0px 5px 0px 0px;
+}
+div#incremento{
+    border-radius: 0px 0px 0px 5px;
+}
+div#otra{
+    border-radius: 0px 0px 5px 0px;
+}
+div#basico:hover{
+    background-color: rgb(49, 170, 158);
+}
+div#grados:hover{
+    background-color: rgb(49, 170, 158);
+}
+div#area:hover{
+    background-color: rgb(49, 170, 158);
+}
+div#velocidad:hover{
+    background-color: rgb(49, 170, 158);
+}
+div#incremento:hover{
+    background-color: rgb(49, 170, 158);
+}
+div#otra:hover{
+    background-color: rgb(49, 170, 158);
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}

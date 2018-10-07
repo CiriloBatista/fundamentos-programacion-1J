@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <title>Calculadora 3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="calculadora3.css">
+    </head>
+    <body>
+        <h1 align="center">Calcular el área de un triángulo</h1>
+        <form>
+            <div id="cajas" align="center">
+                <div>
+                    <label id="lblnum1" for="numero1"></label>
+                    <input type="number" id="numero1" placeholder="Base de triángulo">
+                    <label id="lblnum2" for="numero2"></label>
+                    <input type="number" id="numero2" placeholder="Altura de triángulo">
+                </div>
+                <div>
+                    <label for="resultado" id="lblResultado"><b>=</b></label>
+                    <input type="number" id="resultado" readonly>
+                </div>
+            </div>
+            <div id="botones" align="center">
+                <button id="area" type="button"><b>Calcular área</b></button>
+            </div>
+        </form>
+    </body>
+    <script src="calculadora3.js"></script>
+</html>
