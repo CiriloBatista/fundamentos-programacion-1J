@@ -1,0 +1,38 @@
+form{
+    margin: 0 auto;
+    background-color: #3E4238;
+    width: 30%;
+    padding: 1% 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid turquoise;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3% 5% 3%;
+    background-color: turquoise;
+}
+#saldo, #retiro{
+    text-align: right;
+    font-size: 20px;
+    background-color: #D6FF7E;
+    border: 2px solid #D6FF7E;
+    color: black;
+    margin-top: 3%;
+    width: 84%;
+    padding: 3% 8% 3%;
+    border-radius: 5px;
+}
+#resultado{
+    margin-bottom: 3%;
+    background-color: white;
+    border: 2px solid white;
+    text-align: right;
+    font-size: 20px;
+    width: 84%;
+    padding: 4% 8% 4%;
+    border-radius: 5px;
+}

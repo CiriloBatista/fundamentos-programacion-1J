@@ -8,9 +8,33 @@ var btnNumero = document.querySelector('#btnNumero');
 btnNumero.addEventListener('click', evalNumero);
 
 var opciones = document.querySelector('#opciones');
-opciones.addEventListener('change', evalOpcion);
+opciones.addEventListener('change', evalOptionSwitch);
 
 //Funciones......
+function evalOptionSwitch(){
+    var numero = Number(inputNumero.value);
+    var opcion = opciones.value;
+
+    switch (opcion){
+        case 'mitad':
+            pResultado.textContent = 'La mitad es '+ (numero/2);
+            break;
+        case 'cuadrado':
+            pResultado.textContent = 'El cuadrado del número '+ numero +' es '+ (numero*numero);
+            break;
+        case 'par':
+            if(numero%2 === 0){
+                pResultado.textContent = 'El número '+ numero +' es par';
+            }
+            else{
+                pResultado.textContent = 'El número '+ numero +' es impar';
+            }
+            break;
+        default:
+            pResultado.textContent = 'No ha seleccionado nada';
+    }
+}
+
 function evalNumero(){
     if(numero > 0) {
         pResultado.textContent = 'El número '+ numero +' es positivo';
