@@ -11,9 +11,13 @@ btnTres.addEventListener('click', ejemplo3);
 var btnCuatro = document.querySelector('#btnCuatro');
 btnCuatro.addEventListener('click', ejemplo4);
 
+var btnCinco = document.querySelector('#btnCinco');
+btnCinco.addEventListener('click', ejemplo5);
+
 var numero = document.querySelector('#numero');
 var tResultado = document.querySelector('#resultado');
 var opciones = document.querySelector('#opciones');
+var lienzo = document.querySelector('#lienzo');
 
 //Funciones..........
 function ejemplo1(){
@@ -58,4 +62,22 @@ function ejemplo4(){
         opciones.add(opcion);
         i--;
     }
+}
+function ejemplo5(){
+    var c = lienzo.getContext('2d');
+    var i = 0;
+
+    do{
+        var x = Math.trunc((Math.random() * 501) +1);
+        var y = Math.trunc((Math.random() * 501) +1);
+        var r = Math.trunc((Math.random() * 50) +1);
+        if(x > 250){
+            continue;
+        }
+        c.beginPath();
+        c.fillStyle = 'rgba(0,255,0,0.5)';
+        c.arc(x, y, r, 0, 2*Math.PI);
+        c.fill();
+        i++;
+    }while(i < 30);
 }
