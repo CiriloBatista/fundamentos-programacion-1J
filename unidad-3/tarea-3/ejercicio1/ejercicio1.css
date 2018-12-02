@@ -15,7 +15,7 @@ button{
     padding: 3% 5% 3%;
     background-color: turquoise;
 }
-#numero{
+#saldo, #retiro{
     text-align: right;
     font-size: 20px;
     background-color: #D6FF7E;
@@ -30,19 +30,6 @@ button{
     margin-bottom: 3%;
     background-color: white;
     border: 2px solid white;
-    text-align: right;
-    font-size: 20px;
-    width: 84%;
-    padding: 4% 8% 4%;
-    border-radius: 5px;
-}
-#opciones{
-    background-color: turquoise;
-    border: 2px solid turquoise;
-<<<<<<< HEAD
-    margin-top: 6%;
-=======
->>>>>>> d0e499d144fb7d3419673799a9bfd07b06924436
     text-align: right;
     font-size: 20px;
     width: 84%;

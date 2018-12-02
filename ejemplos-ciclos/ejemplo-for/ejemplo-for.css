@@ -1,32 +1,51 @@
+table, th, td{
+    border: 1px solid black;
+}
+body{
+    text-align: center;
+}
 form{
     margin: 0 auto;
+    text-align: center;
     background-color: #3E4238;
-    width: 30%;
+    width: 45%;
     padding: 1% 2%;
     border: 2px solid black;
     border-radius: 10px;
 }
+label{
+    color: white;
+    font-size: 20px;
+}
 button{
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border: 2px solid turquoise;
     border-radius: 5px;
     font-size: 20px;
     padding: 3% 5% 3%;
     background-color: turquoise;
 }
-#numero{
+select{
+    margin-bottom: 5px;
+    border: 2px solid turquoise;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3% 5% 3%;
+    background-color: turquoise;
+}
+input{
     text-align: right;
     font-size: 20px;
+    margin-bottom: 5px; 
     background-color: #D6FF7E;
     border: 2px solid #D6FF7E;
     color: black;
-    margin-top: 3%;
+    margin-top: 1%;
     width: 84%;
     padding: 3% 8% 3%;
     border-radius: 5px;
 }
-#resultado{
+/*#resultado{
     margin-bottom: 3%;
     background-color: white;
     border: 2px solid white;
@@ -36,16 +55,7 @@ button{
     padding: 4% 8% 4%;
     border-radius: 5px;
 }
-#opciones{
-    background-color: turquoise;
-    border: 2px solid turquoise;
-<<<<<<< HEAD
-    margin-top: 6%;
-=======
->>>>>>> d0e499d144fb7d3419673799a9bfd07b06924436
-    text-align: right;
+#lblResultado{
     font-size: 20px;
-    width: 84%;
-    padding: 4% 8% 4%;
-    border-radius: 5px;
+    color: white;
 }

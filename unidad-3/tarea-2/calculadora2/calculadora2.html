@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <title>Calculadora 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="calculadora2.css">
+    </head>
+    <body>
+        <h1 align="center">Convertir grados centígrados a fahrenheit</h1>
+        <form>
+            <div id="cajas" align="center">
+                <div>
+                    <label id="lblnum1" for="numero1"></label>
+                    <input type="number" id="numero1" placeholder="Numero en ºC">
+                </div>
+                <div>
+                    <label for="resultado" id="lblResultado"><b>=</b></label>
+                    <input type="number" id="resultado" readonly>
+                </div>
+            </div>
+            <div id="botones" align="center">
+                <button id="gradosF" type="button"><b>Convertir a ºF</b></button>
+            </div>
+        </form>
+    </body>
+    <script src="calculadora2.js"></script>
+</html>

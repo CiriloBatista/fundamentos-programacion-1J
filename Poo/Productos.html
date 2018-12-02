@@ -1,0 +1,51 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Supermarket</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/png/512/107/107831.png" />
+        <link rel="stylesheet" type="text/css" media="screen" href="productos.css" />
+    </head>
+    <body align="center">
+        <h1><b><span class="glyphicon glyphicon-shopping-cart"></span> Supermarket</b></h1>
+        <div id="container">
+            <div id="content1" class="col-md-7">
+                <h1><b>Agregar Artículo <span class="glyphicon glyphicon-plus"></span></b></h1><hr>
+                <div id="form">
+                    <label><b>Nombre del Artículo:</b></label>
+                </div>
+                <div id="form2">
+                    <input type="text" id="texto">
+                </div>
+                <div id="form3">
+                    <label>Cantidad y Precio:</label>
+                </div>
+                <div id="form4">
+                    <input type="number" id="numero">
+                    <button type="button"id="disabled" disabled>$</button><input type="number" id="precio">
+                </div>
+                <div id="form5">
+                    <button type="button" id="btnAgregar"><span class="glyphicon glyphicon-shopping-cart"></span>  Agregar</button>
+                </div>
+            </div>
+            <div id="content2" class="col-md-4">
+                <div id="form1">
+                    <h1><b>Carrito<span class="glyphicon glyphicon-shopping-cart"></span></b></h1><hr>
+                    <table id="carrito">
+                        <tr>
+                            <th class="col-lg-2">Cant.</th>
+                            <th class="col-lg-6">Artículo</th>
+                            <th class="col-lg-4"><span class="glyphicon glyphicon-usd"></span>Precio</th>
+                        </tr>
+                    </table>
+                    <label id="pesos"></label><br>
+                    <label id="dolares"></label>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="JS/productos.js" type="module"></script>
+</html>
